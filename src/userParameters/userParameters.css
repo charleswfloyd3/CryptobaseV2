@@ -1,0 +1,197 @@
+@font-face {
+    font-family: missionfont;
+    src: url(DINNeuzeitGroteskStd-Light.otf);
+  }
+
+  @font-face {
+    font-family: missionfont;
+    src: url(DINNeuzeitGroteskStd-Light.otf);
+  }
+.registerpage-container{
+    height: 100vh;
+    background-color: rgb(40, 99, 138);
+    background-image: url("2.webp");
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+	/* border: 10px solid rgb(40, 99, 138); */
+    background-color: white;
+	height: 550px;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 6%), 0 2px 2px rgb(0 0 0 / 6%),
+		0 4px 4px rgb(0 0 0 / 6%), 0 0 8px rgb(0 0 0 / 6%);
+	border-radius: 2px;
+}
+.form-header{
+    text-align: center;
+    color: rgb(40, 99, 138);
+    font-size: 27px;
+    font-weight: 400;
+    border-bottom: .1px solid rgb(228, 228, 228);
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-family: missionfont;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 500;
+
+}
+
+
+.high-price{
+margin-top: 44px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.low-price{
+text-align: center;
+margin-top: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.dollar-label{
+    border: none;
+    outline: none;
+    padding: 0px;
+    width: 375px;
+    display: block;
+    margin: auto;
+    margin-top:-14px;
+}
+.high-price-input,
+.low-price-input{
+    display: block;
+    width: 345px;
+    margin: auto;
+    height: 30px;
+    font-size: 15px;
+    margin-top: -26px;
+    margin-bottom: 0px;
+    border: .1px solid rgb(179, 179, 179);
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.low-price-input{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.phone-num-header{
+text-align: center;
+/* margin-top: 30px; */
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.plus-label{
+    border: none;
+    outline: none;
+    padding: 0px;
+    width: 375px;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phone-num-input{
+    display: block;
+    width: 345px;
+    margin: auto;
+    height: 30px;
+    font-size: 15px;
+    margin-top: -26px;
+    margin-bottom: 0px;
+    border: .1px solid rgb(179, 179, 179);
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* padding-bottom: 3px; */
+
+    /* display: block;
+    width: 355px;
+    padding-left: 20px;
+    margin: auto;
+    height: 20px;
+    font-size: 16px;
+    border: .1px solid rgb(179, 179, 179); */
+}
+.coin-monitored-header{
+    text-align: center;
+    color: rgb(40, 99, 138);
+    font-size: 20px;
+    font-weight: 400;
+    /* border-bottom: .1px solid rgb(226, 226, 226); */
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    
+}
+.coin-image-register{
+    height: 20px;
+    padding-left: 4px;
+}
+.register-submit{
+width: 100px;
+display: block;
+margin: auto;
+margin-top: 00px;
+background-color: rgb(6, 90, 129);
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: missionfont;
+
+outline: none;
+border: none;
+font-size: 16px;
+padding: 10px;
+width: 375px;
+}
+.successForm{
+
+}
+@media(max-width:750px){
+    form{
+        width: 84vw;
+    }
+    .form-header{
+        width: 84vw;
+    }
+    .coin-monitored-header{
+        width: 84vw;
+    }
+}
+/* @media(max-width:500px){
+    form{
+        width: 100vw;
+    }
+    .form-header{
+        width: 100vw;
+    }
+    .coin-monitored-header{
+        width: 100vw;
+    }
+} */

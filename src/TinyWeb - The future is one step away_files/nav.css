@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Marcellus+SC&family=Nova+Flat&display=swap");
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/MufteyaRegular-1G8zM.ttf);
+}
+@font-face {
+    font-family: titles;
+    src: url(CraftyNotesRegular-9YW77.ttf);
+}
+.nav-container {
+	height: 75px;
+	background-color: white;
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16);
+	z-index: 2;
+	left: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-inner {
+	margin: 0 auto;
+	width: 90%;
+	/* border: 2px solid black; */
+	height: 73px;
+	display: flex;
+	position: absolute;
+}
+
+.nav-left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid black; */
+
+}
+.nav-right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	/* border: 2px solid black; */
+	margin-right: 100px;
+	margin-top: 4px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	/* font-family: fantasy; */
+	/* font-family: myFirstFont; */
+
+}
+.companyLogo{
+list-style-type: none;
+color:#0085fa;
+font-size: 32px;
+font-family: myFirstFont;
+/* border: 2px solid black; */
+position: absolute;
+left: 0;
+letter-spacing: 2px;
+font-weight: bolder;
+
+margin-top: 8px;
+cursor: pointer;
+/* font-family: titles; */
+
+
+}
+.subscribe{
+	list-style: none;
+	right: 0;
+	position: absolute;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	color: white;
+	background-color:#0085fa;
+
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-radius: 4px;
+	opacity: 1;
+	margin-top: -1px;
+	letter-spacing: 1px;
+	/* font-family: myFirstFont; */
+	cursor: pointer;
+}
+
+
+
+.phoneIcon {
+	height: 13.5px;
+	margin-top: 4.2px;
+	right:250px;
+	position: absolute;
+letter-spacing: .5px;
+
+}
+.resourcesBtn{
+
+	list-style: none;
+color: royalblue;
+margin-right:40px;
+font-size: 16px;
+letter-spacing: .5px;
+font-weight: 400;
+
+}
+.phoneBtn{
+
+	padding-top: 7px;
+padding-bottom:5px;	list-style: none;
+	color: royalblue;
+	margin-right: 88px;
+	font-size: 16px;
+	letter-spacing: .5px;
+	font-weight:400;
+	border-bottom: 2px solid transparent;
+	
+	}
+.signinBtn{
+	padding-top: 7px;
+padding-bottom:5px;
+	list-style: none;
+	color: #0085fa;
+	margin-right:40px;
+font-size: 16px;
+letter-spacing: .5px;
+font-weight: 400;
+border-bottom: 2px solid transparent;
+
+}
+.signinBtn:hover
+,.phoneBtn:hover{
+	border-bottom: 2px solid #0085fa;
+
+}
+.hamburger{
+	display: none;
+	position: absolute;
+	right: 0;
+	/* top: 20%; */
+	top: -10.75px;
+	font-size: 28px;
+	color: #0085fa;
+/* color: black; */
+	font-weight: 100;
+	cursor: pointer;
+font-weight: 100;
+
+}
+/* .signinBtn:hover, .phoneBtn:hover,.resourcesBtn:hover{
+	border-bottom: 3px solid #0085fa;
+	border-bottom: 3px solid transparent;
+
+	cursor: pointer;
+} */
+.dropdown-menu{
+	background-color: black;
+	height: 300px;
+	width: 100vw;
+	left: 0;
+	position: fixed;
+	margin-top: 75px;
+	display: none;
+}
+
+
+  .dropdown {
+  }
+  
+  .dropdown-content {
+	background-color: white;
+	height: 214px;
+	width: 100vw;
+	left: 0;
+	position: fixed;
+	margin-top: 75px;
+	display: none;
+	text-align: right;
+	/* text-align: center; */
+	box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.16);
+}
+  
+  .dropdown-content a {
+	  display: block;
+	  text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	list-style: none;
+	color: black;
+
+	margin-right: 40px;
+font-size: 16px;
+letter-spacing: .5px;
+font-weight:300;
+margin-top: 10px;
+border-bottom: .1px solid rgb(206, 206, 206);
+/* color: #0085fa; */
+
+margin-left: 40px;
+padding-top: 5px;
+padding-bottom: 10px;
+  }
+  
+  .dropdown-content a:hover{
+	/* color: #0085fa; */
+}
+.show{
+	display: block;
+}
+.resources-dropdown{
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 150px;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16);
+
+	/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+	z-index: 1;
+	margin-top: 24px;
+	height: 160px;
+	list-style-type: none;
+	right: 270px;
+}
+.signinBtn:hover .resources-dropdown{ 
+display: block ;
+}
+
+@media(max-width:900px){
+	.nav-right{
+		display: none;
+	}
+	.hamburger{
+		display: block;
+		font-size: 24px;
+		margin-top: 33px;
+	}
+	.companyLogo{
+		font-size: 22px;
+	}
+
+
+}
+@media(min-width:900px){
+
+	.dropdown-content{
+		display: none;
+	}
+
+}
+
+.reddit-logo{
+	height: 20px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 2px;
+}
+.github-logo{
+	height: 18px;
+	position: absolute;
+	margin-top: 1.5px;
+	margin-left: 2px;
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: missionfont;
+    src: url(DIN\ Neuzeit\ Grotesk\ W01\ Bold.otf);
+  }
+  @font-face {
+    font-family: missionfontthin;
+    src: url(DINNeuzeitGroteskStd-Light.otf);
+  }
+.nav-outer{
+    height: fit-content;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    /* z-index: 100; */
+    height: 74px;
+    position: fixed;
+}
+.nav-left{
+    left: 7vw;
+    position: absolute;
+    top: 10px;
+}
+.company-container{
+    display: flex;
+
+}
+.logo{
+    /* color: white    ; */
+    font-size: 28px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    height: 32px;
+    padding-top: 13px;
+}
+.company-name-nav{
+    font-size: 22px;
+    font-family: missionfont;
+    padding-left: 10px;
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+}
+.nav-right{
+right: 7vw;
+position: absolute;
+top:15px;
+display: flex;
+
+}
+.instruction{
+    /* color: white    ; */
+    font-family: missionfontthin;
+
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
+}
+.darkmode{
+    /* color: white    ; */
+    font-family: missionfontthin;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}

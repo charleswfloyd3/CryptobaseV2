@@ -1,0 +1,97 @@
+@font-face {
+    font-family: missionfont;
+    src: url(DINNeuzeitGroteskStd-Light.otf);
+  }
+
+  @font-face {
+    font-family: missionfont;
+    src: url(DINNeuzeitGroteskStd-Light.otf);
+  }
+.success-form{
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    border: none;
+}
+.success-form-inner{
+
+}
+.success-form-header-container{
+    display: flex;
+    justify-content: center;
+    border-bottom:.1px solid rgb(207, 207, 207) ;
+    margin-top: 0px;
+    width: 500px;
+    padding-bottom: 0px;
+    height: 70px;
+    margin-top: -4px;
+}
+.success-form-header{
+font-size: 24px;
+font-family: missionfont;
+/* font-family: Arial, Helvetica, sans-serif; */
+text-align: center;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+.success-message-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.success-message{
+    font-size: 19px;
+    /* font-family: missionfont; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    /* text-transform: uppercase;    */
+}
+.greencheck{
+    height: 24px;
+    padding-left: 8px;
+    padding-top: 25px;
+}
+.succes-coin-info{
+    
+    display: flex;
+    margin-top: 4px;
+}
+.coin-img-success{
+    height: 22px;
+    padding-left: 6px;
+    padding-top: 14px;
+    padding-right: 3px;
+}
+.success-coin{
+font-family: missionfont;
+font-size: 20px;
+margin-top: 12px;
+}
+.disclaimer{
+    font-size: 11kpx;
+    margin-top: -40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.howitworks{
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    margin-top: 4px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    font-weight: 500;
+    border-bottom:1px solid rgb(71, 71, 71) ;
+    cursor: pointer;
+    font-family: missionfont;
+}
