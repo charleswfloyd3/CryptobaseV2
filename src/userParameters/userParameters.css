@@ -9,8 +9,8 @@
   }
 .registerpage-container{
     height: 100vh;
-    background-color: rgb(40, 99, 138);
-    background-image: url("2.webp");
+    /* background-color: rgb(40, 99, 138); */
+    background-image: url("background.jpg");
 
     background-position: center center;
     background-size: cover;

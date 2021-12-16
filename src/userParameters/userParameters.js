@@ -42,7 +42,7 @@ let color = "white"
     <div className="registerpage-container">
     <Navbar colordata={color} navleft={"Learn More"}/>
 
-    {formStatus ?<div className="registerpage-container">
+    {formStatus ?<div className="registerpage-container" >
         <form onSubmit={handleSubmit(onSubmit)}>
           <p className="form-header">You're almost done!</p>
 
