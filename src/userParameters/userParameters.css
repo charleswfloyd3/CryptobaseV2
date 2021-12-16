@@ -10,7 +10,7 @@
 .registerpage-container{
     height: 100vh;
     /* background-color: rgb(40, 99, 138); */
-    background-image: url("background.jpg");
+    /* background-image: url("background.jpg"); */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
