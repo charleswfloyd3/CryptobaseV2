@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   /* background-image: url(lightbackground.jpeg); */
-  background-image: url("2.webp");
+  background-image: url("/src/assets/images/background.jpg");
   /* background-color: white; */
 
   background-position: center center;
