@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../navbar/navbar';
 import './info.css'
+import infographic from '../assets/images/info.jpeg'
 const Info = () => {
 
     let color = "black"
     return (
         <div className="info-page-outer">
             <Navbar colordata={color} navleft={"Github Docs"}/>
-            <img src="images/info.jpeg" className="info-img" />
+            <img src={infographic} className="info-img" />
             {/* <div className="arrow-container">
                 <img src="images/arrow.png" class="arrow bounce" />
             </div> */}
