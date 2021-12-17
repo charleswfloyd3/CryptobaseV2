@@ -8,7 +8,7 @@ const Info = () => {
     return (
         <div className="info-page-outer">
             <Navbar colordata={color} navleft={"Github Docs"}/>
-            <img src={infographic} className="info-img" />
+            <img src={"/images/info.png"} className="info-img" />
             {/* <div className="arrow-container">
                 <img src="images/arrow.png" class="arrow bounce" />
             </div> */}
